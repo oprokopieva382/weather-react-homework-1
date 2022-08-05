@@ -14,7 +14,7 @@ function App() {
           <Temperature />
         </div>
         <a
-          href="https://github.com/oprokopieva382/1st-Challenge"
+          href="https://github.com/oprokopieva382/weather-react-homework-1"
           class="source"
           target="_blank"
           rel="noreferrer"
