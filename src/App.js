@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import HeaderDate from "./HeaderDate";
+import HeaderForm from "./HeaderForm";
+import Temperature from "./Temperature";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <div className="weather-app">
+          <HeaderForm />
+          <HeaderDate />
+          <Temperature />
+        </div>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/oprokopieva382/1st-Challenge"
+          class="source"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Open-source code
         </a>
-      </header>
+        by Ksy Fate
+      </div>
     </div>
   );
 }
